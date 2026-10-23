@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&family=Cairo:slnt,wght@-11..11,200..1000&family=Carter+One&family=Chelsea+Market&family=Isometra&display=swap");
+
+h1 {
+  font-size: 100px;
+  color: green;
+  font-family: "Chelsea Market";
+}
+h1 {
+  /* text-align: center; */
+  background: url("../img/rusa\ hero.jpg") center no-repeat;
+  background-size: cover;
+  /* width: 500px; */
+  margin: 0 auto;
+  /* padding: 100px 0; */
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 1;
+  transition: 0.5s;
+  h1:hover {
+    opacity: 0.5;
+  }
+  #item-galery {
+    align-items: center;
+    display: flex;
+  }
+  .container {
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
+    display: flex;
+    padding-bottom: 50px;
+  }
+}
+body {
+  background-color: #f5e1ca;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: black;
+}
+.familia-list ul{
+
+}
+

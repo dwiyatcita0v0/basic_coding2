@@ -1,20 +1,29 @@
 <!doctype html>
-<html lang="id">
+<html lang="en">
   <head>
-    <h1>XYZ Zoo Animal List</h1>
-    <img src="img/zoo.jpg" width="1000" />
+    <meta charset="UTF-8" >
+    <meta name="viewport"content="width=device-width, initial-scale=1.0">
+    <title>latihan 1</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body id="zoo">
+    <div class="header-utama">
+    <h1>XYZ Zoo Animal</h1>   
+  <div class="container">
     <ol>
       <li>
-        <h3>Feline</h3>
-        <ul>
+        <h2>Feline</h2>
+        <ul class="familia-list">
           <li>
-            Lynx <br />
+            <div>
+            <h3 item-galery>Lynx</h3>
             <a href="img/lynx.jpg" target="_blank"
               ><img src="img/lynx.jpg" width="500"
             /></a>
+        
           </li>
           <li>
-            Lion <br />
+           <h3 item-galery>Lion </h3> 
             <a href="img/lion.jpg" target="_blank"
               ><img src="img/lion.jpg" width="500"
             /></a>
@@ -24,15 +33,17 @@
 
       <li>
         <h3>Canine</h3>
-        <ul>
+       <ul class="familia-list">
           <li>
-            Wolf <br />
+           <h3>Wolf </h3> 
             <a href="img/wolf.jpg" target="_blank"
               ><img src="img/wolf.jpg" width="500"
             /></a>
+          </div>
           </li>
+
           <li>
-            Coyote <br />
+         <h3>Coyote</h3>
             <a href="img/coyote.jpg" target="_blank"
               ><img src="img/coyote.jpg" width="500"
             /></a>
@@ -42,6 +53,7 @@
 
       <li>
         <h3>Bird</h3>
+        <li class="kotak">
         <ul>
           <li>
             Parrot <br />
@@ -59,7 +71,8 @@
       </li>
     </ol>
 
-    <h1>Animal Facts</h1>
+    <head>
+    <h2>Animal Facts</h2>
     <table border="1" width="500" cellspacing="0">
       <tr>
         <th rowspan="2">Family</th>
@@ -117,7 +130,7 @@
       </tr>
     </table>
 
-    <h1>Plan Your Visit</h1>
+    <h2>Plan Your Visit</h2>
     <form action="/action_page.php">
       <label for="fname">First name:</label>
       <input
@@ -187,12 +200,11 @@
           </tr>
         </table>
       </form>
-    </form>
   </head>
-</html>
-<ol></ol>
+</div>
 <h2>Source</h2>
 <ol>
   <li><a href="https://pexels.com/" target="_blank">Pexels</a></li>
   <li><a href="https://pixabay.com/" target="_blank">Unsplash</a></li>
 </ol>
+</html>
